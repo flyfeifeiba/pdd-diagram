@@ -1,1 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2021-01-19T08:23:35.153Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="14.2.3" etag="o8dV5sdQWrVXBLQkdiLf" type="github"><diagram id="jjeMhmKpEKlYTJhqRUKk">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-19T09:20:57.879Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Jg5y4eUOgz8CbPhY8rM5" version="14.2.3" type="github">
+  <diagram id="jjeMhmKpEKlYTJhqRUKk" name="Page-1">
+    <mxGraphModel dx="2249" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Za5TZnwOfKJd7kfOBD30-1" value="历史巡检批次表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="330" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Za5TZnwOfKJd7kfOBD30-2" value="历史巡检记录表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="330" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Za5TZnwOfKJd7kfOBD30-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Za5TZnwOfKJd7kfOBD30-4" target="Za5TZnwOfKJd7kfOBD30-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Za5TZnwOfKJd7kfOBD30-8" value="新增巡检批次" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Za5TZnwOfKJd7kfOBD30-5">
+          <mxGeometry x="0.1846" relative="1" as="geometry">
+            <mxPoint y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Za5TZnwOfKJd7kfOBD30-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Za5TZnwOfKJd7kfOBD30-4" target="Za5TZnwOfKJd7kfOBD30-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Za5TZnwOfKJd7kfOBD30-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Za5TZnwOfKJd7kfOBD30-4" target="Za5TZnwOfKJd7kfOBD30-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Za5TZnwOfKJd7kfOBD30-4" value="历史巡检分配任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="460" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Za5TZnwOfKJd7kfOBD30-10" value="历史巡检数据&lt;br&gt;mysql" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="330" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Za5TZnwOfKJd7kfOBD30-13" value="扫描历史巡检数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="414" y="430" as="geometry">
+            <mxPoint x="-222" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Za5TZnwOfKJd7kfOBD30-14" value="分配任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="440" y="420" as="geometry">
+            <mxPoint x="222" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Za5TZnwOfKJd7kfOBD30-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Za5TZnwOfKJd7kfOBD30-15" target="Za5TZnwOfKJd7kfOBD30-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Za5TZnwOfKJd7kfOBD30-17" value="随机获取巡检任务记录（rn）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Za5TZnwOfKJd7kfOBD30-16">
+          <mxGeometry x="-0.5478" y="2" relative="1" as="geometry">
+            <mxPoint x="102" y="77" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Za5TZnwOfKJd7kfOBD30-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Za5TZnwOfKJd7kfOBD30-15" target="Za5TZnwOfKJd7kfOBD30-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Za5TZnwOfKJd7kfOBD30-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Za5TZnwOfKJd7kfOBD30-15" target="Za5TZnwOfKJd7kfOBD30-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Za5TZnwOfKJd7kfOBD30-21" value="获取巡检批次" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Za5TZnwOfKJd7kfOBD30-20">
+          <mxGeometry x="-0.2" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Za5TZnwOfKJd7kfOBD30-15" value="历史巡检" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="140" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Za5TZnwOfKJd7kfOBD30-19" value="通过rn获取巡检数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="200" y="250" as="geometry">
+            <mxPoint x="-14" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Za5TZnwOfKJd7kfOBD30-23" value="hive2mysql" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Za5TZnwOfKJd7kfOBD30-22" target="Za5TZnwOfKJd7kfOBD30-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Za5TZnwOfKJd7kfOBD30-22" value="历史巡检数据&lt;br&gt;hive" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="330" width="120" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
