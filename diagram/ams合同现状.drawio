@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-16T11:28:45.522Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="frJWQkJOrt6iUGmYqxrr" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-16T12:00:16.483Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="bRUXe6vUlbo6tXdJSkrn" version="14.6.0" type="github">
   <diagram id="4VJl39eJ_0qbuoJLty5a" name="Page-1">
     <mxGraphModel dx="1426" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -86,8 +86,15 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="d3kjSuax9LrQZjBUcqNV-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="d3kjSuax9LrQZjBUcqNV-6" target="d3kjSuax9LrQZjBUcqNV-22" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="d3kjSuax9LrQZjBUcqNV-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="d3kjSuax9LrQZjBUcqNV-6" target="sv72AQcr1GjBHG_Lcp-G-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sv72AQcr1GjBHG_Lcp-G-5" value="同步数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="d3kjSuax9LrQZjBUcqNV-23">
+          <mxGeometry x="-0.1333" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="d3kjSuax9LrQZjBUcqNV-28" value="存储、读取商家签署协议信息" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="d3kjSuax9LrQZjBUcqNV-6" target="d3kjSuax9LrQZjBUcqNV-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -132,7 +139,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="d3kjSuax9LrQZjBUcqNV-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="550" y="770" width="430" height="90" as="geometry" />
+          <mxGeometry x="550" y="740" width="430" height="120" as="geometry" />
         </mxCell>
         <mxCell id="d3kjSuax9LrQZjBUcqNV-11" value="ad-mammon-api" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCC99;" parent="1" vertex="1">
           <mxGeometry x="590" y="785" width="130" height="60" as="geometry" />
@@ -143,19 +150,23 @@
         <mxCell id="d3kjSuax9LrQZjBUcqNV-13" value="..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="910" y="805" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="d3kjSuax9LrQZjBUcqNV-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="d3kjSuax9LrQZjBUcqNV-22" target="d3kjSuax9LrQZjBUcqNV-24" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="sv72AQcr1GjBHG_Lcp-G-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="957.5" width="440" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="d3kjSuax9LrQZjBUcqNV-26" value="同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="d3kjSuax9LrQZjBUcqNV-25" vertex="1" connectable="0">
-          <mxGeometry x="-0.28" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="sv72AQcr1GjBHG_Lcp-G-2" value="B端协议中心&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22ad-biz-contract-api%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfillColor%3D%23CCFF99%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22430%22%20y%3D%22980%22%20width%3D%22130%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFF99;" vertex="1" parent="1">
+          <mxGeometry x="790" y="990" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="d3kjSuax9LrQZjBUcqNV-22" value="ad-biz-integration-api" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFF99;" parent="1" vertex="1">
-          <mxGeometry x="840" y="980" width="130" height="60" as="geometry" />
+        <mxCell id="sv72AQcr1GjBHG_Lcp-G-3" value="财务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFF99;" vertex="1" parent="1">
+          <mxGeometry x="940" y="990" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="d3kjSuax9LrQZjBUcqNV-24" value="B端协议中心" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#33FFFF;" parent="1" vertex="1">
-          <mxGeometry x="840" y="1140" width="130" height="60" as="geometry" />
+        <mxCell id="sv72AQcr1GjBHG_Lcp-G-4" value="..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="1010" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sv72AQcr1GjBHG_Lcp-G-8" value="外部协议" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="960" width="73" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sv72AQcr1GjBHG_Lcp-G-9" value="业务方" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="750" width="73" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
