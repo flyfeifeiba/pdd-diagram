@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-16T09:13:26.927Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="QpYI6r5A-zHhNSumk6om" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-16T09:57:29.833Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="FVFxlUY6VOkWC5gFqh64" version="14.6.11" type="github">
   <diagram id="GOmEl7LJMIvYEHOZRHSB" name="Page-1">
     <mxGraphModel dx="946" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -101,6 +101,33 @@
         </mxCell>
         <mxCell id="MbbQXRMOaAWuGw-apZug-35" value="联合投放信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="680" y="1050" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MbbQXRMOaAWuGw-apZug-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MbbQXRMOaAWuGw-apZug-36" target="MbbQXRMOaAWuGw-apZug-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MbbQXRMOaAWuGw-apZug-36" value="ams" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFCCE6;" vertex="1" parent="1">
+          <mxGeometry x="183" y="1169" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MbbQXRMOaAWuGw-apZug-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MbbQXRMOaAWuGw-apZug-37" target="MbbQXRMOaAWuGw-apZug-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MbbQXRMOaAWuGw-apZug-37" value="mms" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#FFCCE6;" vertex="1" parent="1">
+          <mxGeometry x="348" y="1169" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MbbQXRMOaAWuGw-apZug-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MbbQXRMOaAWuGw-apZug-38" target="MbbQXRMOaAWuGw-apZug-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MbbQXRMOaAWuGw-apZug-38" value="mikasa" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#00FFFF;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1280" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MbbQXRMOaAWuGw-apZug-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MbbQXRMOaAWuGw-apZug-45" target="MbbQXRMOaAWuGw-apZug-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MbbQXRMOaAWuGw-apZug-45" value="ad-biz-magic-api" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#00CC00;" vertex="1" parent="1">
+          <mxGeometry x="265" y="1400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MbbQXRMOaAWuGw-apZug-47" value="ad_vis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="295" y="1500" width="60" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
