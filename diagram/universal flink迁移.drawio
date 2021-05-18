@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2021-05-18T05:35:06.512Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" version="14.6.13" etag="a3hRNqm5RZfdKU4AwROA" type="github"><diagram id="aCeuzVrzhWMBTDE2q9wa">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-18T06:44:47.641Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="3IJXR0iB9SF7kQmU8B6Y" version="14.6.13" type="github">
+  <diagram id="aCeuzVrzhWMBTDE2q9wa" name="Page-1">
+    <mxGraphModel dx="1408" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7OjDIavO6H5-JiFx55HC-12" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#00CC66;" vertex="1" parent="1">
+          <mxGeometry x="500" y="240" width="310" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="7OjDIavO6H5-JiFx55HC-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7OjDIavO6H5-JiFx55HC-1" target="7OjDIavO6H5-JiFx55HC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7OjDIavO6H5-JiFx55HC-1" value="topic&lt;br&gt;dmp-mall-cost-reached" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="160" y="140" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7OjDIavO6H5-JiFx55HC-5" value="dubbo 调用" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7OjDIavO6H5-JiFx55HC-2" target="7OjDIavO6H5-JiFx55HC-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7OjDIavO6H5-JiFx55HC-2" value="flink&lt;br&gt;deathknight-dmp-mall-spend-reached" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66FFFF;" vertex="1" parent="1">
+          <mxGeometry x="160" y="280" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7OjDIavO6H5-JiFx55HC-4" value="ad-biz-universal-api" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#00CC66;" vertex="1" parent="1">
+          <mxGeometry x="160" y="420" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7OjDIavO6H5-JiFx55HC-6" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="330" as="sourcePoint" />
+            <mxPoint x="460" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7OjDIavO6H5-JiFx55HC-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7OjDIavO6H5-JiFx55HC-8" target="7OjDIavO6H5-JiFx55HC-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7OjDIavO6H5-JiFx55HC-8" value="topic&lt;br&gt;dmp-mall-cost-reached" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="570" y="140" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7OjDIavO6H5-JiFx55HC-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7OjDIavO6H5-JiFx55HC-10" target="7OjDIavO6H5-JiFx55HC-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7OjDIavO6H5-JiFx55HC-10" value="tiger sdk&lt;br&gt;process message" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="280" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7OjDIavO6H5-JiFx55HC-11" value="原dubbo接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="420" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7OjDIavO6H5-JiFx55HC-15" value="ad-biz-universal-api" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="250" width="110" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="7OjDIavO6H5-JiFx55HC-17" value="迁移前" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="90" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7OjDIavO6H5-JiFx55HC-18" value="迁移后" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="90" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
