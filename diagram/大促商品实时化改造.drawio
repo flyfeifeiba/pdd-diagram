@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2021-07-22T03:09:38.856Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" version="14.8.6" etag="1G6vFlGq8vZV-Ig8v6N3" type="github"><diagram id="irvH4hWIVaRysqvD8rx1">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-22T03:44:01.078Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="zlFldjXFsDTRLtEL8Y73" version="14.8.6" type="github">
+  <diagram id="irvH4hWIVaRysqvD8rx1" name="Page-1">
+    <mxGraphModel dx="1426" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eSYFQGT3z5ROkoaGf4Er-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eSYFQGT3z5ROkoaGf4Er-1" target="eSYFQGT3z5ROkoaGf4Er-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eSYFQGT3z5ROkoaGf4Er-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eSYFQGT3z5ROkoaGf4Er-1" target="eSYFQGT3z5ROkoaGf4Er-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eSYFQGT3z5ROkoaGf4Er-1" value="商家报名" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eSYFQGT3z5ROkoaGf4Er-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eSYFQGT3z5ROkoaGf4Er-2" target="eSYFQGT3z5ROkoaGf4Er-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eSYFQGT3z5ROkoaGf4Er-2" value="dts消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eSYFQGT3z5ROkoaGf4Er-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eSYFQGT3z5ROkoaGf4Er-4" target="eSYFQGT3z5ROkoaGf4Er-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eSYFQGT3z5ROkoaGf4Er-4" value="消息过滤" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eSYFQGT3z5ROkoaGf4Er-6" value="发送tiger消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eSYFQGT3z5ROkoaGf4Er-8" value="ad_union_schedule&lt;br&gt;_mall表变更" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
